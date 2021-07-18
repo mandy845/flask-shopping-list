@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shopping list</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style_shopping_list.css') }}">
+</head>
+<body>
+  <div class="container">
+        <h1>Add your new items</h1>
+        <form action = "http://localhost:5000/items" method = "post">
+            <div class="label">
+                <input type="text" name="name" placeholder="Product name">
+                <input type="text" name="item id" placeholder="Product id">
+            </div>
+            <div class="label">
+                <input type="text" name="quantity" placeholder="Product quantity">
+                <input type="text" name="price" placeholder="Product price">
+            </div>
+            <button type="submit">ADD ITEM</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+	width: 100%;
+	display: grid;
+	min-height: 100vh;
+	background: #3498db;
+	place-content: center;
+}
+
+.container h1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.container{
+ border: 1px solid black;
+}
+.container table p,
+{
+  border: 1px solid black;
+}
+
+
+.container table {
+    width: 500px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.container table th {
+    height: 50px;
+
+}
+
+.container table  {
+    padding: 5px;
+     border: 3px solid black;
+}

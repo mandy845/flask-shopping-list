@@ -1,0 +1,57 @@
+body {
+	width: 100%;
+	display: grid;
+	min-height: 100vh;
+	background: blue;
+	place-content: center;
+
+}
+
+.container h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.container{
+ border: 3px solid black;
+ width:50%;
+ height:100%;
+}
+
+form {
+	width: 900px;
+}
+
+form .label {
+	width: 200%;
+	display: grid;
+	align-items: center;
+	justify-content: space-between;
+}
+
+form .label input {
+	width: 45%;
+	padding: 12px;
+	margin-bottom: 10px;
+}
+
+form .label input {
+	width: 200%;
+	padding: 12px;
+	margin-bottom: 10px;
+
+}
+
+form button {
+	width: 25%;
+	padding: 15px;
+	color: red;
+	font-weight:bold;
+	margin-top: 20px;
+	margin-bottom:3px;
+	margin-left:100px;
+	background: black;
+	border: 2px solid #ffffff;
+}

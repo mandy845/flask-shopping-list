@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list  of items</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style_items_list.css') }}">
+</head>
+<body>
+<div class="container">
+        <h1>Your products</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    {% for key in product_details %}
+                        <th>{{key}}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    {% for key in product_details %}
+                        <td>{{product_details[key]}}</td>
+                    {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+
+</div>
+</body>
+
+</html>
